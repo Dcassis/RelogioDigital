@@ -1,3 +1,15 @@
+// JS DAYS OF THE WEEK
+
+const dayWeek = document.getElementById("dayOfWeek")
+
+function updateWeek(){
+    const diaSem = ["Domingo", "Segunda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira","Sexta-Feira", "Sábado"]
+
+    let weekDay = diaSem[new Date().getDay()]
+    dayWeek.innerText = weekDay; 
+}
+  updateWeek()
+
 // JS DO RELÓGIO
 
 const hours = document.getElementById("hours")
@@ -9,9 +21,9 @@ function updateClock() {
     let m = new Date().getMinutes()
     let s = new Date().getSeconds()
  
-h = h <10 ? "0"+ h : h;
-m = m <10 ? "0"+ m : m;
-s = s <10 ? "0"+ s : s;
+    h = h <10 ? "0"+ h : h;
+    m = m <10 ? "0"+ m : m;
+    s = s <10 ? "0"+ s : s;
 
     hours.innerText= h;
     min.innerText= m;

@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-size: 1.3rem;
+    font-size: 100%;
     font-family: sans-serif;
     color: white;
 }
@@ -9,20 +9,27 @@
 body{
     display: flex;
     height: 100vh;
+    width: 500px;
+    margin: auto;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background: url("https://www.xtrafondos.com/en/descargar.php?id=9796&resolucion=2560x1440");
     background-size: cover;
     overflow: hidden;
-    gap: 30px;
+    gap: 1rem;
 }
 
 h1{
-    font-size: 2rem;
+    display: flex;
+    font-size: 120%;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 1px 2px #dad3d1;
+    height:10%;
+    width: 60%;
     font-weight: bold;
     background-color: #b34747;
-    padding: 20px;
     border-radius: 15px;
 }
 
@@ -35,10 +42,11 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 25%;
+    height: 15%;
     width: 60%;
-    gap: 10px;
+    gap: 1rem;
     background-color: #b34747;
+    opacity: .9;
     border-radius: 15px;
 }
 
@@ -46,11 +54,11 @@ span{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 10% ;
+    width: 10%;
     height: 30%;
-    padding: 1.5rem;
+    padding: 1rem;
     background-color: #b41616;
-    gap: 10px;
+    gap: 1rem;
     border-radius: 15px;
 }
 
@@ -58,9 +66,9 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 25%;
-    width: 60%;
-    gap: 10px;
+    height: 15%;
+    width: 60% ;
+    gap: 1rem;
     background-color: #b34747;
     border-radius: 15px;
 }
