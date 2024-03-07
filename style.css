@@ -122,9 +122,10 @@ span{
 @media (max-width: 600px) {
     #newMesage{ 
         font-size: 1rem;
-        margin:.2rem;}
+        margin:1rem;
+        text-align:center}
+        
     .mensagem{
-        width: 85%;
         max-width: 500px;
         height: auto;        
         background-color: #0367E8;
@@ -133,10 +134,10 @@ span{
         line-height: 1rem;
     }
     #dayOfWeek{
-        font-size: 1rem;
-        margin:.2rem;}
+        font-size: 1.2rem;
+        margin:.7em;}
     #mensDia{
-        font-size: .7rem;
+        font-size: 1rem;
     }
     .text{
         font-size: 1rem;
