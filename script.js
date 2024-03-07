@@ -2,13 +2,13 @@
 
 const dayWeek = document.getElementById("dayOfWeek")
 
-function updateWeek(){
+function updateDayWeek(){
     const diaSem = ["Domingo", "Segunda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira","Sexta-Feira", "Sábado"]
 
     let weekDay = diaSem[new Date().getDay()]
     dayWeek.innerText = weekDay; 
 }
-  updateWeek()
+  updateDayWeek()
 
 // JS DO RELÓGIO
 
@@ -59,4 +59,3 @@ function updateData() {
 }
 
 updateData()
-

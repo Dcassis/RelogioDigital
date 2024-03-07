@@ -4,17 +4,18 @@
     font-size: 100%;
     font-family: sans-serif;
     color: white;
+    border-sizing: border-box;
 }
 
 body{
     display: flex;
     height: 100vh;
-    width: 500px;
+    width: 100vw;
     margin: auto;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url("https://www.xtrafondos.com/en/descargar.php?id=9796&resolucion=2560x1440");
+    background: url("https://c4.wallpaperflare.com/wallpaper/161/296/845/nature-sea-water-turquoise-wallpaper-preview.jpg");
     background-size: cover;
     overflow: hidden;
     gap: 1rem;
@@ -22,20 +23,30 @@ body{
 
 h1{
     display: flex;
-    font-size: 120%;
+    font-size: 2.5rem;
     justify-content: center;
     align-items: center;
-    text-shadow: 2px 1px 2px #dad3d1;
-    height:10%;
-    width: 60%;
+    background: #ece9e9;
+    text-shadow: 3px 5px 2px #474747;
+    color: #FFFFFF;
+    height: 15%;
+    width: 75%;
+    max-width: 500px;
     font-weight: bold;
-    background-color: #b34747;
+    background-color: #0367E8;
     border-radius: 15px;
+    letter-spacing: .15rem;
+    opacity:.9;
 }
 
 span{
-    font-size: .6rem;
+    font-size: .8rem;
     font-weight: 200;
+}
+
+#mensDia{
+    font-size: 1.5rem;
+    margin-top:1rem;
 }
 
 .time{
@@ -43,9 +54,10 @@ span{
     justify-content: center;
     align-items: center;
     height: 15%;
-    width: 60%;
+    width: 75%;
+    max-width: 500px;
     gap: 1rem;
-    background-color: #b34747;
+    background-color: #0367E8;
     opacity: .9;
     border-radius: 15px;
 }
@@ -54,10 +66,12 @@ span{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 10%;
-    height: 30%;
-    padding: 1rem;
-    background-color: #b41616;
+    justify-content: center;
+    font-size: 2rem;
+    width: 20%;
+    height: 75%;
+    padding: .4rem;
+    background-color: #6CB779;
     gap: 1rem;
     border-radius: 15px;
 }
@@ -67,8 +81,65 @@ span{
     justify-content: center;
     align-items: center;
     height: 15%;
-    width: 60% ;
+    width: 75%;
+    max-width: 500px;
     gap: 1rem;
-    background-color: #b34747;
+    background-color: #0367E8;
     border-radius: 15px;
 }
+.mensagem{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 75%;
+        max-width: 500px;
+        height: auto;        
+        background-color: #0367E8;
+        border-radius: 15px;
+        opacity: .9;
+        line-height: 4rem;
+    }
+    
+#saudacao {
+    font-size: 2.5rem;
+    text-shadow: 3px 5px 2px #474747;
+}
+
+.imagem{
+    width: 40%;
+    border-radius: 50%;
+    padding:.2rem;
+}
+
+#newMesage{ 
+    font-size: 1.25rem;
+    font-style: italic;
+    margin:1rem;
+}
+
+
+@media (max-width: 600px) {
+    #newMesage{ 
+        font-size: 1rem;
+        margin:.2rem;}
+    .mensagem{
+        width: 85%;
+        max-width: 500px;
+        height: auto;        
+        background-color: #0367E8;
+        border-radius: 15px;
+        opacity: .9;
+        line-height: 1rem;
+    }
+    #dayOfWeek{
+        font-size: 1rem;
+        margin:.2rem;}
+    #mensDia{
+        font-size: .7rem;
+    }
+    .text{
+        font-size: 1rem;
+    }
+}
+
